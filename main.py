@@ -30,7 +30,7 @@ def main():
                     lastmd5 = md5
                 dis = analyse_image("text_area.png", directory="screenshots",backup="text_area_2.png")
                 simulate_tap( dis * factor )
-                timeduration = random.uniform(0.6,0.8)
+                timeduration = random.uniform(0.9,1.0)
                 time.sleep(timeduration)
                 #break # Debug
         except Exception as e:
